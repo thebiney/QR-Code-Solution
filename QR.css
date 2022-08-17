@@ -1,6 +1,9 @@
 body{
     background-color: hsl(220, 15%, 55%);
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
 section.box{
     background-color: white;
@@ -8,8 +11,7 @@ section.box{
     border-radius: 15px 15px 15px 15px;
     height:fit-content;
     width:fit-content;
-    margin-left: 40%;
-    margin-top: 10%;
+    
     
 }
 .photo{
